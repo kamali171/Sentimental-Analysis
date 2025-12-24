@@ -1,176 +1,46 @@
-🛒 Product Sentiment Analyzer & Review Dashboard
+# Getting Started with Create React App
 
-A web-based application that automatically collects product reviews from e-commerce platforms, analyzes customer sentiment using NLP techniques, and presents insights through an interactive dashboard.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-📌 Overview
+## Available Scripts
 
-The Product Sentiment Analyzer helps users understand customer opinions by converting raw product reviews into Positive, Neutral, and Negative sentiments.
-It saves time, reduces manual effort, and supports better decision-making for customers and businesses.
+In the project directory, you can run:
 
-✨ Features
+### `npm start`
 
-🕷️ Automated Review Scraping: Collects product reviews dynamically using Selenium
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-🧹 Data Cleaning: Removes noise like special characters and stopwords
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-💬 Sentiment Analysis: Classifies reviews as Positive, Neutral, or Negative using NLP
+### `npm test`
 
-📊 Interactive Dashboard: Visual representation using charts and graphs
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-🔍 Product Search: Search and analyze reviews for specific products
+### `npm run build`
 
-💾 Data Storage: Stores processed data securely in a database
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-⚡ Fast Insights: Real-time sentiment trends and summaries
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-🧰 Tech Stack
-Frontend
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-HTML
+### `npm run eject`
 
-CSS
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-JavaScript
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Chart.js / Plotly
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Backend
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Python
+## Learn More
 
-Flask / Django
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Web Scraping
-
-Selenium
-
-BeautifulSoup
-
-NLP & Data Processing
-
-Pandas
-
-NLTK / TextBlob / VADER
-
-Database
-
-SQLite / MySQL / MongoDB
-
-Tools
-
-VS Code
-
-Chrome WebDriver
-
-Git & GitHub
-
-🚀 Workflow (Flow Explanation)
-
-User enters the product name
-
-System scrapes product reviews from e-commerce sites
-
-Collected reviews are cleaned and preprocessed
-
-Sentiment analysis is performed on each review
-
-Results are stored in the database
-
-Dashboard generates visual insights
-
-Sentiment results are displayed to the user
-
-🛠️ Installation & Setup
-1. Clone the Repository
-git clone <repo-url>
-cd product-sentiment-analyzer
-
-2. Install Dependencies
-pip install -r requirements.txt
-
-3. Setup WebDriver
-
-Download Chrome WebDriver
-
-Add it to system PATH
-
-4. Run the Application
-python app.py
-
-
-Access the application at:
-👉 http://localhost:5000
-
-📂 Project Structure
-product-sentiment-analyzer/
-├── frontend/
-│   ├── templates/          # HTML files
-│   ├── static/
-│   │   ├── css/            # Stylesheets
-│   │   └── js/             # JavaScript files
-├── backend/
-│   ├── scraper.py          # Web scraping logic
-│   ├── sentiment.py        # NLP sentiment analysis
-│   ├── database.py         # Database operations
-│   └── app.py              # Flask/Django app
-├── data/
-│   └── reviews.db          # Stored review data
-├── requirements.txt
-└── README.md
-
-📊 Dashboard Output
-
-Sentiment Distribution (Pie Chart)
-
-Review Count (Bar Chart)
-
-Overall Product Rating Trend
-
-✅ Advantages
-
-Saves time and manual effort
-
-Accurate sentiment classification
-
-Easy-to-understand visual insights
-
-Useful for customers, sellers, and researchers
-
-Scalable for multiple products and platforms
-
-🌍 Applications
-
-E-commerce product analysis
-
-Customer feedback evaluation
-
-Market research
-
-Competitive product comparison
-
-Business decision support
-
-🔮 Future Enhancements
-
- Multi-platform scraping (Amazon, Flipkart, etc.)
-
- Aspect-based sentiment analysis
-
- User login and product comparison
-
- Export reports as PDF/CSV
-
- AI-powered recommendation system
-
-🤝 Contributing
-
-Contributions are welcome!
-Feel free to fork the repository, open issues, or submit pull requests.
-
-📜 License
-
-MIT License – See the LICENSE file for details.
-
-🙌 Credits
-
-Built with ❤️ using Python, NLP, and Web Technologies.
+To learn React, check out the [React documentation](https://reactjs.org/).
